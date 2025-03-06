@@ -3,13 +3,13 @@ import { strategyArray } from "../data";
 import EmptyState from "./EmptyState";
 
 const StrategyCards = ({ selectedView, selectedDate }) => {
-  // Find the view data that matches the selected view
+ 
   const viewData = strategyArray.find((item) => item.View === selectedView);
   
-  // Get the strategies for the selected date (or empty array if none)
+  
   const strategies = viewData?.Value[selectedDate] || [];
 
-  // Count occurrences of each strategy
+ 
   const strategyCounts = strategies.reduce((acc, strategy) => {
     acc[strategy] = (acc[strategy] || 0) + 1;
     return acc;

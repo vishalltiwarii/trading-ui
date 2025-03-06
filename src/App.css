@@ -1,4 +1,4 @@
-/* Main Container */
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
   background-color: #f9f9f9;
 }
 
-/* Toggle Switch */
+
 .toggle-container {
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@
   color: white;
 }
 
-/* Main Dropdown Container */
+
 .dropdown-container {
   width: 60%;
   max-width: 450px;
@@ -49,7 +49,7 @@
   position: relative;
 }
 
-/* Custom Dropdown Styling */
+
 .custom-dropdown {
   width: 100%;
 }
@@ -77,14 +77,14 @@
   transform: rotate(180deg);
 }
 
-/* Important: the dropdown menu is now a sibling to custom-dropdown, not nested inside */
+
 .dropdown-menu {
   width: 100%;
   background: white;
   border-radius: 8px;
   margin-top: 5px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1; /* Lower z-index so it doesn't hover over other elements */
+  z-index: 1; 
   max-height: 300px;
   overflow-y: auto;
 }
@@ -104,7 +104,7 @@
   background-color: #f9f9f9;
 }
 
-/* Strategy Cards - Continuous stacked layout */
+
 .strategy-container {
   margin-top: 20px;
   width: 100%;
@@ -132,7 +132,7 @@
   font-size: 14px;
 }
 
-/* Empty State */
+
 .empty-state {
   margin-top: 20px;
   font-size: 16px;
